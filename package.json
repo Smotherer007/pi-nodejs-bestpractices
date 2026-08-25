@@ -1,11 +1,12 @@
 {
   "name": "@patimweb/pi-nodejs-bestpractices",
   "version": "0.1.0",
-  "description": "Node.js 26 best-practice skill for the Pi coding agent — Temporal API, native TypeScript, node:sqlite, Undici 8, deprecations/removals, and the full 2026 best-practice catalog (architecture, error handling, testing, production, security, Docker)",
+  "description": "Node.js best practices skill for the Pi coding agent (current version: Node 26) — architecture, error handling, testing, production, security, performance, and Docker. Curated from nodebestpractices and the Node.js docs.",
   "keywords": [
     "pi-package",
-    "node-26",
+    "pi-skill",
     "nodejs",
+    "node-26",
     "best-practices",
     "temporal",
     "typescript",
@@ -15,20 +16,37 @@
     "testing",
     "coding-agent"
   ],
-  "license": "MIT",
   "author": "Patrick Weppelmann",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=26.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Smotherer007/pi-nodejs-bestpractices.git"
+    "url": "https://github.com/Smotherer007/pi-nodejs-bestpractices.git"
   },
   "bugs": {
     "url": "https://github.com/Smotherer007/pi-nodejs-bestpractices/issues"
   },
-  "homepage": "https://github.com/Smotherer007/pi-nodejs-bestpractices#readme",
+  "scripts": {
+    "build": "echo 'No build step defined'",
+    "test": "node --test 'test/**/*.test.ts'",
+    "test:watch": "node --test --watch 'test/**/*.test.ts'"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "skills/"
   ],
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.0",
+    "semantic-release": "^25.0.0"
+  },
   "pi": {
-    "skills": ["./skills"]
+    "skills": [
+      "./skills"
+    ]
   }
 }
