@@ -46,6 +46,7 @@
   "pi": {
     "skills": [
       "./skills"
-    ]
+    ],
+    "image": "https://raw.githubusercontent.com/Smotherer007/pi-nodejs-bestpractices/main/screenshot.png"
   }
 }
