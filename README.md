@@ -25,7 +25,7 @@ pi install npm:@patimweb/pi-nodejs-bestpractices
 ### From a git repo
 
 ```bash
-pi install git:github.com/Smotherer007/pi-nodejs-bestpractices@v0.2.0
+pi install git:github.com/Smotherer007/pi-nodejs-bestpractices@v0.3.0
 ```
 
 ### Try without installing
