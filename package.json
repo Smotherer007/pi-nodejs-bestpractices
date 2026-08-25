@@ -1,0 +1,34 @@
+{
+  "name": "@patimweb/pi-nodejs-bestpractices",
+  "version": "0.1.0",
+  "description": "Node.js 26 best-practice skill for the Pi coding agent — Temporal API, native TypeScript, node:sqlite, Undici 8, deprecations/removals, and the full 2026 best-practice catalog (architecture, error handling, testing, production, security, Docker)",
+  "keywords": [
+    "pi-package",
+    "node-26",
+    "nodejs",
+    "best-practices",
+    "temporal",
+    "typescript",
+    "node-sqlite",
+    "undici",
+    "security",
+    "testing",
+    "coding-agent"
+  ],
+  "license": "MIT",
+  "author": "Patrick Weppelmann",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smotherer007/pi-nodejs-bestpractices.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Smotherer007/pi-nodejs-bestpractices/issues"
+  },
+  "homepage": "https://github.com/Smotherer007/pi-nodejs-bestpractices#readme",
+  "files": [
+    "skills/"
+  ],
+  "pi": {
+    "skills": ["./skills"]
+  }
+}
