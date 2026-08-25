@@ -1,6 +1,6 @@
 {
   "name": "@patimweb/pi-nodejs-bestpractices",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node.js best practices skill for the Pi coding agent (current version: Node 26) — architecture, error handling, testing, production, security, performance, and Docker. Curated from nodebestpractices and the Node.js docs.",
   "keywords": [
     "pi-package",
