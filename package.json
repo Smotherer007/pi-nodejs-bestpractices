@@ -1,6 +1,6 @@
 {
   "name": "@patimweb/pi-nodejs-bestpractices",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Node.js best practices for the Pi coding agent — Matteo Collina's `node` skill, vendored 1:1 from mcollina/skills (MIT). TypeScript type-stripping, async patterns, error handling, streams, performance, profiling, testing, and more.",
   "keywords": [
     "pi-package",
