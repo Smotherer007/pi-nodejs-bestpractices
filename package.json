@@ -1,18 +1,17 @@
 {
   "name": "@patimweb/pi-nodejs-bestpractices",
   "version": "0.2.0",
-  "description": "Node.js best practices skill for the Pi coding agent (current version: Node 26) — architecture, error handling, testing, production, security, performance, and Docker. Curated from nodebestpractices and the Node.js docs.",
+  "description": "Node.js best practices for the Pi coding agent — Matteo Collina's `node` skill, vendored 1:1 from mcollina/skills (MIT). TypeScript type-stripping, async patterns, error handling, streams, performance, profiling, testing, and more.",
   "keywords": [
     "pi-package",
     "pi-skill",
     "nodejs",
-    "node-26",
+    "node",
     "best-practices",
-    "temporal",
     "typescript",
-    "node-sqlite",
-    "undici",
-    "security",
+    "type-stripping",
+    "performance",
+    "streams",
     "testing",
     "coding-agent"
   ],

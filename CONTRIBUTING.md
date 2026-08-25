@@ -1,38 +1,30 @@
 # Contributing
 
-This is a **skills-only** Pi package (no runtime code). The package is markdown plus a
-semantic-release setup.
+This is a **skills-only** Pi package. The skill is vendored **1:1** from
+[mcollina/skills](https://github.com/mcollina/skills).
 
 ```
 skills/
-└── nodejs-best-practices/
-    ├── SKILL.md
-    └── references/
-        ├── evergreen-best-practices.md    # complete catalog (curated from nodebestpractices)
-        ├── node-26-whats-new.md           # Node 26 features & breaking changes
-        ├── security-deep-dive.md          # concrete security reference
-        └── framework-and-testing.md       # framework + testing patterns
+└── node/
+    ├── SKILL.md          # Collina's `node` skill
+    ├── LICENSE           # MIT (© Matteo Collina)
+    ├── tile.json
+    └── rules/
+        ├── *.md          # 14 best-practice rules
+        └── assets/       # graceful-server examples
 ```
 
 ## How to contribute
 
-1. Open an issue to discuss the change (or send a PR for small fixes).
-2. Keep facts accurate — cite the Node.js release blog / API docs / changelog where possible.
-3. Prefer erasable facts over opinion where it matters (stability levels, exact deprecation codes).
-4. Keep `SKILL.md` concise (progressive disclosure); put detail in `references/`.
-5. For best-practice content, attribute to `nodebestpractices` (MIT).
+1. Open an issue first to discuss.
+2. Upstream content lives in [mcollina/skills](https://github.com/mcollina/skills) — consider
+   contributing there; this repo vendors it 1:1.
+3. `npm test` validates skill frontmatter.
 
 ## Conventions
 
-- **Conventional commits** (`feat:`/`fix:`) — releases are automated by semantic-release on push to `main`.
-- `npm test` validates skill frontmatter (`node --test`).
-
-## Verification
-
-- `npm test` is green.
-- `name` matches `^[a-z0-9-]{1,64}$`, `description` ≤ 1024 chars (Agent Skills spec).
+- Conventional commits (`feat:`/`fix:`) — semantic-release on push to `main`.
 
 ## License
 
-Contributions are licensed under [MIT](LICENSE). Best-practice content is derived from
-`nodebestpractices` (MIT) — see the README attribution.
+[MIT](LICENSE). Skill content © Matteo Collina (MIT) — see `skills/node/LICENSE`.
