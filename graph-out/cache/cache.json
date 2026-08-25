@@ -1,0 +1,703 @@
+{
+  "package-lock.json": {
+    "hash": "011922ec8bf3ed2b",
+    "nodes": [],
+    "edges": []
+  },
+  "package.json": {
+    "hash": "a21bee52db3b498d",
+    "nodes": [
+      {
+        "id": "package_file",
+        "label": "package.json",
+        "type": "file",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_name",
+        "label": "name",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_version",
+        "label": "version",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_description",
+        "label": "description",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_keywords",
+        "label": "keywords",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_author",
+        "label": "author",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_license",
+        "label": "license",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_type",
+        "label": "type",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_engines",
+        "label": "engines",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_repository",
+        "label": "repository",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_bugs",
+        "label": "bugs",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_scripts",
+        "label": "scripts",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_publishConfig",
+        "label": "publishConfig",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_files",
+        "label": "files",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_devDependencies",
+        "label": "devDependencies",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_pi",
+        "label": "pi",
+        "type": "field",
+        "sourceFile": "package.json"
+      }
+    ],
+    "edges": [
+      {
+        "source": "package_file",
+        "target": "package_name",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_version",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_description",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_keywords",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_author",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_license",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_type",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_engines",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_repository",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_bugs",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_scripts",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_publishConfig",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_files",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_devDependencies",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_pi",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "release.config.cjs": {
+    "hash": "b70b717326632d30",
+    "nodes": [
+      {
+        "id": "release.config_file",
+        "label": "release.config.cjs",
+        "type": "file",
+        "sourceFile": "release.config.cjs"
+      }
+    ],
+    "edges": []
+  },
+  "skills/node/rules/assets/graceful-server.test.ts": {
+    "hash": "6f8b00df094c50a7",
+    "nodes": [
+      {
+        "id": "skills_node_rules_assets_graceful-server.test_file",
+        "label": "skills/node/rules/assets/graceful-server.test.ts",
+        "type": "file",
+        "sourceFile": "skills/node/rules/assets/graceful-server.test.ts"
+      },
+      {
+        "id": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "label": "createHandler",
+        "type": "function",
+        "sourceFile": "skills/node/rules/assets/graceful-server.test.ts",
+        "sourceLocation": "L9"
+      },
+      {
+        "id": "skills_node_rules_assets_graceful-server.test_getPort",
+        "label": "getPort",
+        "type": "function",
+        "sourceFile": "skills/node/rules/assets/graceful-server.test.ts",
+        "sourceLocation": "L40"
+      }
+    ],
+    "edges": [
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_file",
+        "target": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_res_setHeader",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_res_writeHead",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_res_end",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_JSON_stringify",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_res_writeHead",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_res_end",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_JSON_stringify",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_res_writeHead",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_res_end",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_createHandler",
+        "target": "skills_node_rules_assets_graceful-server.test_JSON_stringify",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_file",
+        "target": "skills_node_rules_assets_graceful-server.test_getPort",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server.test_getPort",
+        "target": "skills_node_rules_assets_graceful-server.test_server_address",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      }
+    ]
+  },
+  "skills/node/rules/assets/graceful-server.ts": {
+    "hash": "1a5777071880d1e5",
+    "nodes": [
+      {
+        "id": "skills_node_rules_assets_graceful-server_file",
+        "label": "skills/node/rules/assets/graceful-server.ts",
+        "type": "file",
+        "sourceFile": "skills/node/rules/assets/graceful-server.ts"
+      },
+      {
+        "id": "skills_node_rules_assets_graceful-server_createHandler",
+        "label": "createHandler",
+        "type": "function",
+        "sourceFile": "skills/node/rules/assets/graceful-server.ts",
+        "sourceLocation": "L11"
+      },
+      {
+        "id": "skills_node_rules_assets_graceful-server_closeServer",
+        "label": "closeServer",
+        "type": "function",
+        "sourceFile": "skills/node/rules/assets/graceful-server.ts",
+        "sourceLocation": "L36"
+      },
+      {
+        "id": "skills_node_rules_assets_graceful-server_main",
+        "label": "main",
+        "type": "function",
+        "sourceFile": "skills/node/rules/assets/graceful-server.ts",
+        "sourceLocation": "L56"
+      }
+    ],
+    "edges": [
+      {
+        "source": "skills_node_rules_assets_graceful-server_file",
+        "target": "skills_node_rules_assets_graceful-server_createHandler",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_res_setHeader",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_res_writeHead",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_res_end",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_JSON_stringify",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_res_writeHead",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_res_end",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_JSON_stringify",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_res_writeHead",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_res_end",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_createHandler",
+        "target": "skills_node_rules_assets_graceful-server_JSON_stringify",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_file",
+        "target": "skills_node_rules_assets_graceful-server_closeServer",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_closeServer",
+        "target": "skills_node_rules_assets_graceful-server_server_closeIdleConnections",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_closeServer",
+        "target": "skills_node_rules_assets_graceful-server_server_close",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_closeServer",
+        "target": "skills_node_rules_assets_graceful-server_reject",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_closeServer",
+        "target": "skills_node_rules_assets_graceful-server_resolve",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_closeServer",
+        "target": "skills_node_rules_assets_graceful-server_setTimeout",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_closeServer",
+        "target": "skills_node_rules_assets_graceful-server_server_closeAllConnections",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_file",
+        "target": "skills_node_rules_assets_graceful-server_main",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_createServer",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_createHandler",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_server_listen",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_console_log",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_closeWithGrace",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_console_error",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_console_log",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_closeServer",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "skills_node_rules_assets_graceful-server_main",
+        "target": "skills_node_rules_assets_graceful-server_console_log",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      }
+    ]
+  },
+  "skills/node/tile.json": {
+    "hash": "981428fab6a3f266",
+    "nodes": [
+      {
+        "id": "skills_node_tile_file",
+        "label": "skills/node/tile.json",
+        "type": "file",
+        "sourceFile": "skills/node/tile.json"
+      },
+      {
+        "id": "skills_node_tile_name",
+        "label": "name",
+        "type": "field",
+        "sourceFile": "skills/node/tile.json"
+      },
+      {
+        "id": "skills_node_tile_version",
+        "label": "version",
+        "type": "field",
+        "sourceFile": "skills/node/tile.json"
+      },
+      {
+        "id": "skills_node_tile_private",
+        "label": "private",
+        "type": "field",
+        "sourceFile": "skills/node/tile.json"
+      },
+      {
+        "id": "skills_node_tile_summary",
+        "label": "summary",
+        "type": "field",
+        "sourceFile": "skills/node/tile.json"
+      },
+      {
+        "id": "skills_node_tile_skills",
+        "label": "skills",
+        "type": "field",
+        "sourceFile": "skills/node/tile.json"
+      }
+    ],
+    "edges": [
+      {
+        "source": "skills_node_tile_file",
+        "target": "skills_node_tile_name",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_tile_file",
+        "target": "skills_node_tile_version",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_tile_file",
+        "target": "skills_node_tile_private",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_tile_file",
+        "target": "skills_node_tile_summary",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "skills_node_tile_file",
+        "target": "skills_node_tile_skills",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "test/skills.test.ts": {
+    "hash": "c3fe23d565901f5a",
+    "nodes": [
+      {
+        "id": "test_skills.test_file",
+        "label": "test/skills.test.ts",
+        "type": "file",
+        "sourceFile": "test/skills.test.ts"
+      },
+      {
+        "id": "test_skills.test_findSkillFiles",
+        "label": "findSkillFiles",
+        "type": "function",
+        "sourceFile": "test/skills.test.ts",
+        "sourceLocation": "L6"
+      }
+    ],
+    "edges": [
+      {
+        "source": "test_skills.test_file",
+        "target": "test_skills.test_findSkillFiles",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "test_skills.test_findSkillFiles",
+        "target": "test_skills.test_readdirSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "test_skills.test_findSkillFiles",
+        "target": "test_skills.test_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "test_skills.test_findSkillFiles",
+        "target": "test_skills.test_statSync_p__isDirectory",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "test_skills.test_findSkillFiles",
+        "target": "test_skills.test_statSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "test_skills.test_findSkillFiles",
+        "target": "test_skills.test_out_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "test_skills.test_findSkillFiles",
+        "target": "test_skills.test_findSkillFiles",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "test_skills.test_findSkillFiles",
+        "target": "test_skills.test_out_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      }
+    ]
+  }
+}
